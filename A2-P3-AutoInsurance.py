@@ -6,17 +6,14 @@
 
 def main():
     # YOUR CODE STARTS HERE, each line must be indented (one tab)
-
     #Variable initialize
     sex=""
     price=0.0
     age=0
     rate=0.0
     monthlyPay=0.0
-
     #Welcome message
     print("Welcome to Scooter's Insurance!\n")
-
     #Input for vehicle price, sex, and age
     sex=input("Are you 'Male' or 'Female'?: ").lower()
     age=int(input("\nEnter your age: "))
@@ -41,14 +38,6 @@ def main():
     monthlyPay=(price*rate)/12 
     #print output for final price
     print("\nYour monthly insurance will be: ${0:,.2f}".format(monthlyPay))
-
-
-
-
-
-
-
-
     # YOUR CODE ENDS HERE
 
 main()
