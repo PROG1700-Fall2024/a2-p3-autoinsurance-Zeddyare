@@ -12,6 +12,7 @@ def main():
     age=0
     rate=0.0
     monthlyPay=0.0
+    months=12
     #Welcome message
     print("Welcome to Scooter's Insurance!\n")
     #Input for vehicle price, sex, and age
@@ -35,7 +36,7 @@ def main():
             rate=0.10
     else: 
         print("No charge for those outside the binary.") 
-    monthlyPay=(price*rate)/12 
+    monthlyPay=(price*rate)/months
     #print output for final price
     print("\nYour monthly insurance will be: ${0:,.2f}".format(monthlyPay))
     # YOUR CODE ENDS HERE
